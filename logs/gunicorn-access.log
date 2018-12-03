@@ -1,0 +1,7 @@
+127.0.0.1 - - [02/Dec/2018:22:31:58 +0800] "GET /predict-dog/ HTTP/1.1" 200 80 "-" "insomnia/6.2.3"
+127.0.0.1 - - [02/Dec/2018:22:39:12 +0800] "GET /predict-dog/ HTTP/1.0" 200 80 "-" "insomnia/6.2.3"
+127.0.0.1 - - [02/Dec/2018:22:40:32 +0800] "GET /predict-dog/ HTTP/1.0" 200 80 "-" "insomnia/6.2.3"
+127.0.0.1 - - [02/Dec/2018:22:53:14 +0800] "GET /predict-dog/ HTTP/1.0" 200 80 "-" "insomnia/6.2.3"
+127.0.0.1 - - [02/Dec/2018:22:58:36 +0800] "GET /predict-dog/ HTTP/1.0" 200 88 "-" "insomnia/6.2.3"
+127.0.0.1 - - [02/Dec/2018:22:59:01 +0800] "GET /predict-dog/ HTTP/1.0" 200 88 "-" "insomnia/6.2.3"
+127.0.0.1 - - [03/Dec/2018:11:37:00 +0800] "GET /predict-dog/ HTTP/1.0" 200 88 "-" "insomnia/6.2.3"

@@ -1,0 +1,1382 @@
+[2018-12-02 21:42:00 +0800] [74136] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10de63b70>
+  on_reload: <function OnReload.on_reload at 0x10de63c80>
+  when_ready: <function WhenReady.when_ready at 0x10de63d90>
+  pre_fork: <function Prefork.pre_fork at 0x10de63ea0>
+  post_fork: <function Postfork.post_fork at 0x10de79048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10de79158>
+  worker_int: <function WorkerInt.worker_int at 0x10de79268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10de79378>
+  pre_exec: <function PreExec.pre_exec at 0x10de79488>
+  pre_request: <function PreRequest.pre_request at 0x10de79598>
+  post_request: <function PostRequest.post_request at 0x10de79620>
+  child_exit: <function ChildExit.child_exit at 0x10de79730>
+  worker_exit: <function WorkerExit.worker_exit at 0x10de79840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10de79950>
+  on_exit: <function OnExit.on_exit at 0x10de79a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-02 21:42:00 +0800] [74136] [INFO] Starting gunicorn 19.9.0
+[2018-12-02 21:42:00 +0800] [74136] [DEBUG] Arbiter booted
+[2018-12-02 21:42:00 +0800] [74136] [INFO] Listening at: http://127.0.0.1:9000 (74136)
+[2018-12-02 21:42:00 +0800] [74136] [INFO] Using worker: sync
+[2018-12-02 21:42:00 +0800] [74139] [INFO] Booting worker with pid: 74139
+[2018-12-02 21:42:00 +0800] [74140] [INFO] Booting worker with pid: 74140
+[2018-12-02 21:42:00 +0800] [74141] [INFO] Booting worker with pid: 74141
+[2018-12-02 21:42:00 +0800] [74136] [DEBUG] 3 workers
+[2018-12-02 21:44:06 +0800] [74136] [INFO] Handling signal: int
+[2018-12-02 21:44:06 +0800] [74140] [INFO] Worker exiting (pid: 74140)
+[2018-12-02 21:44:06 +0800] [74141] [INFO] Worker exiting (pid: 74141)
+[2018-12-02 21:44:06 +0800] [74139] [INFO] Worker exiting (pid: 74139)
+[2018-12-02 21:44:09 +0800] [74136] [INFO] Shutting down: Master
+[2018-12-02 22:28:16 +0800] [75603] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10a47cb70>
+  on_reload: <function OnReload.on_reload at 0x10a47cc80>
+  when_ready: <function WhenReady.when_ready at 0x10a47cd90>
+  pre_fork: <function Prefork.pre_fork at 0x10a47cea0>
+  post_fork: <function Postfork.post_fork at 0x10a492048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10a492158>
+  worker_int: <function WorkerInt.worker_int at 0x10a492268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10a492378>
+  pre_exec: <function PreExec.pre_exec at 0x10a492488>
+  pre_request: <function PreRequest.pre_request at 0x10a492598>
+  post_request: <function PostRequest.post_request at 0x10a492620>
+  child_exit: <function ChildExit.child_exit at 0x10a492730>
+  worker_exit: <function WorkerExit.worker_exit at 0x10a492840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10a492950>
+  on_exit: <function OnExit.on_exit at 0x10a492a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-02 22:28:16 +0800] [75603] [INFO] Starting gunicorn 19.9.0
+[2018-12-02 22:28:16 +0800] [75603] [DEBUG] Arbiter booted
+[2018-12-02 22:28:16 +0800] [75603] [INFO] Listening at: http://127.0.0.1:9000 (75603)
+[2018-12-02 22:28:16 +0800] [75603] [INFO] Using worker: sync
+[2018-12-02 22:28:16 +0800] [75606] [INFO] Booting worker with pid: 75606
+[2018-12-02 22:28:16 +0800] [75607] [INFO] Booting worker with pid: 75607
+[2018-12-02 22:28:16 +0800] [75608] [INFO] Booting worker with pid: 75608
+[2018-12-02 22:28:16 +0800] [75603] [DEBUG] 3 workers
+[2018-12-02 22:31:51 +0800] [75606] [DEBUG] GET /predict-dog/
+[2018-12-02 22:32:14 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:14 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:14 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:14 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:14 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:14 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:14 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:14 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:14 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:14 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:14 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:15 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:15 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:15 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:15 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:15 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:15 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:15 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:16 +0800] [75603] [INFO] Handling signal: winch
+[2018-12-02 22:32:16 +0800] [75608] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:16 +0800] [75603] [DEBUG] SIGWINCH ignored. Not daemonized
+[2018-12-02 22:32:16 +0800] [75607] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:32:16 +0800] [75606] [DEBUG] worker: SIGWINCH ignored.
+[2018-12-02 22:39:06 +0800] [75608] [DEBUG] GET /predict-dog/
+[2018-12-02 22:40:29 +0800] [75606] [DEBUG] GET /predict-dog/
+[2018-12-02 22:53:10 +0800] [75606] [DEBUG] GET /predict-dog/
+[2018-12-02 22:58:33 +0800] [75608] [DEBUG] GET /predict-dog/
+[2018-12-02 22:58:56 +0800] [75606] [DEBUG] GET /predict-dog/
+[2018-12-03 11:26:45 +0800] [75603] [INFO] Handling signal: int
+[2018-12-03 11:26:45 +0800] [75608] [INFO] Worker exiting (pid: 75608)
+[2018-12-03 11:26:45 +0800] [75606] [INFO] Worker exiting (pid: 75606)
+[2018-12-03 11:26:45 +0800] [75607] [INFO] Worker exiting (pid: 75607)
+[2018-12-03 11:26:49 +0800] [75603] [INFO] Shutting down: Master
+[2018-12-03 11:27:25 +0800] [89736] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1098ebb70>
+  on_reload: <function OnReload.on_reload at 0x1098ebc80>
+  when_ready: <function WhenReady.when_ready at 0x1098ebd90>
+  pre_fork: <function Prefork.pre_fork at 0x1098ebea0>
+  post_fork: <function Postfork.post_fork at 0x109902048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x109902158>
+  worker_int: <function WorkerInt.worker_int at 0x109902268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x109902378>
+  pre_exec: <function PreExec.pre_exec at 0x109902488>
+  pre_request: <function PreRequest.pre_request at 0x109902598>
+  post_request: <function PostRequest.post_request at 0x109902620>
+  child_exit: <function ChildExit.child_exit at 0x109902730>
+  worker_exit: <function WorkerExit.worker_exit at 0x109902840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x109902950>
+  on_exit: <function OnExit.on_exit at 0x109902a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:27:25 +0800] [89736] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:27:25 +0800] [89736] [DEBUG] Arbiter booted
+[2018-12-03 11:27:25 +0800] [89736] [INFO] Listening at: http://127.0.0.1:9000 (89736)
+[2018-12-03 11:27:25 +0800] [89736] [INFO] Using worker: sync
+[2018-12-03 11:27:25 +0800] [89741] [INFO] Booting worker with pid: 89741
+[2018-12-03 11:27:25 +0800] [89742] [INFO] Booting worker with pid: 89742
+[2018-12-03 11:27:25 +0800] [89743] [INFO] Booting worker with pid: 89743
+[2018-12-03 11:27:25 +0800] [89736] [DEBUG] 3 workers
+[2018-12-03 11:27:37 +0800] [89741] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:27:37 +0800] [89743] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:27:37 +0800] [89742] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:27:37 +0800] [89741] [INFO] Worker exiting (pid: 89741)
+[2018-12-03 11:27:37 +0800] [89743] [INFO] Worker exiting (pid: 89743)
+[2018-12-03 11:27:37 +0800] [89742] [INFO] Worker exiting (pid: 89742)
+[2018-12-03 11:28:26 +0800] [89761] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x103a0ab70>
+  on_reload: <function OnReload.on_reload at 0x103a0ac80>
+  when_ready: <function WhenReady.when_ready at 0x103a0ad90>
+  pre_fork: <function Prefork.pre_fork at 0x103a0aea0>
+  post_fork: <function Postfork.post_fork at 0x103a21048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x103a21158>
+  worker_int: <function WorkerInt.worker_int at 0x103a21268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x103a21378>
+  pre_exec: <function PreExec.pre_exec at 0x103a21488>
+  pre_request: <function PreRequest.pre_request at 0x103a21598>
+  post_request: <function PostRequest.post_request at 0x103a21620>
+  child_exit: <function ChildExit.child_exit at 0x103a21730>
+  worker_exit: <function WorkerExit.worker_exit at 0x103a21840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x103a21950>
+  on_exit: <function OnExit.on_exit at 0x103a21a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:28:26 +0800] [89761] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:28:26 +0800] [89761] [DEBUG] Arbiter booted
+[2018-12-03 11:28:26 +0800] [89761] [INFO] Listening at: http://127.0.0.1:9000 (89761)
+[2018-12-03 11:28:26 +0800] [89761] [INFO] Using worker: sync
+[2018-12-03 11:28:26 +0800] [89764] [INFO] Booting worker with pid: 89764
+[2018-12-03 11:28:26 +0800] [89765] [INFO] Booting worker with pid: 89765
+[2018-12-03 11:28:26 +0800] [89766] [INFO] Booting worker with pid: 89766
+[2018-12-03 11:28:27 +0800] [89761] [DEBUG] 3 workers
+[2018-12-03 11:28:31 +0800] [89766] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:28:31 +0800] [89765] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:28:31 +0800] [89766] [INFO] Worker exiting (pid: 89766)
+[2018-12-03 11:28:31 +0800] [89765] [INFO] Worker exiting (pid: 89765)
+[2018-12-03 11:28:31 +0800] [89764] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:28:31 +0800] [89764] [INFO] Worker exiting (pid: 89764)
+[2018-12-03 11:29:00 +0800] [89782] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10bf4ab70>
+  on_reload: <function OnReload.on_reload at 0x10bf4ac80>
+  when_ready: <function WhenReady.when_ready at 0x10bf4ad90>
+  pre_fork: <function Prefork.pre_fork at 0x10bf4aea0>
+  post_fork: <function Postfork.post_fork at 0x10bf60048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10bf60158>
+  worker_int: <function WorkerInt.worker_int at 0x10bf60268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10bf60378>
+  pre_exec: <function PreExec.pre_exec at 0x10bf60488>
+  pre_request: <function PreRequest.pre_request at 0x10bf60598>
+  post_request: <function PostRequest.post_request at 0x10bf60620>
+  child_exit: <function ChildExit.child_exit at 0x10bf60730>
+  worker_exit: <function WorkerExit.worker_exit at 0x10bf60840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10bf60950>
+  on_exit: <function OnExit.on_exit at 0x10bf60a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:29:00 +0800] [89782] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:29:00 +0800] [89782] [DEBUG] Arbiter booted
+[2018-12-03 11:29:00 +0800] [89782] [INFO] Listening at: http://127.0.0.1:9000 (89782)
+[2018-12-03 11:29:00 +0800] [89782] [INFO] Using worker: sync
+[2018-12-03 11:29:00 +0800] [89785] [INFO] Booting worker with pid: 89785
+[2018-12-03 11:29:00 +0800] [89786] [INFO] Booting worker with pid: 89786
+[2018-12-03 11:29:00 +0800] [89787] [INFO] Booting worker with pid: 89787
+[2018-12-03 11:29:00 +0800] [89782] [DEBUG] 3 workers
+[2018-12-03 11:29:04 +0800] [89786] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:29:04 +0800] [89787] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:29:04 +0800] [89785] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:29:04 +0800] [89787] [INFO] Worker exiting (pid: 89787)
+[2018-12-03 11:29:04 +0800] [89786] [INFO] Worker exiting (pid: 89786)
+[2018-12-03 11:29:04 +0800] [89785] [INFO] Worker exiting (pid: 89785)
+[2018-12-03 11:29:05 +0800] [89782] [INFO] Shutting down: Master
+[2018-12-03 11:29:05 +0800] [89782] [INFO] Reason: Worker failed to boot.
+[2018-12-03 11:29:55 +0800] [89809] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10d1f7b70>
+  on_reload: <function OnReload.on_reload at 0x10d1f7c80>
+  when_ready: <function WhenReady.when_ready at 0x10d1f7d90>
+  pre_fork: <function Prefork.pre_fork at 0x10d1f7ea0>
+  post_fork: <function Postfork.post_fork at 0x10d20d048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10d20d158>
+  worker_int: <function WorkerInt.worker_int at 0x10d20d268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10d20d378>
+  pre_exec: <function PreExec.pre_exec at 0x10d20d488>
+  pre_request: <function PreRequest.pre_request at 0x10d20d598>
+  post_request: <function PostRequest.post_request at 0x10d20d620>
+  child_exit: <function ChildExit.child_exit at 0x10d20d730>
+  worker_exit: <function WorkerExit.worker_exit at 0x10d20d840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10d20d950>
+  on_exit: <function OnExit.on_exit at 0x10d20da60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:29:55 +0800] [89809] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:29:55 +0800] [89809] [DEBUG] Arbiter booted
+[2018-12-03 11:29:55 +0800] [89809] [INFO] Listening at: http://127.0.0.1:9000 (89809)
+[2018-12-03 11:29:55 +0800] [89809] [INFO] Using worker: sync
+[2018-12-03 11:29:55 +0800] [89812] [INFO] Booting worker with pid: 89812
+[2018-12-03 11:29:55 +0800] [89809] [DEBUG] 1 workers
+[2018-12-03 11:29:58 +0800] [89812] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:29:58 +0800] [89812] [INFO] Worker exiting (pid: 89812)
+[2018-12-03 11:29:58 +0800] [89809] [INFO] Shutting down: Master
+[2018-12-03 11:29:58 +0800] [89809] [INFO] Reason: Worker failed to boot.
+[2018-12-03 11:33:01 +0800] [89873] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10e630b70>
+  on_reload: <function OnReload.on_reload at 0x10e630c80>
+  when_ready: <function WhenReady.when_ready at 0x10e630d90>
+  pre_fork: <function Prefork.pre_fork at 0x10e630ea0>
+  post_fork: <function Postfork.post_fork at 0x10e647048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10e647158>
+  worker_int: <function WorkerInt.worker_int at 0x10e647268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10e647378>
+  pre_exec: <function PreExec.pre_exec at 0x10e647488>
+  pre_request: <function PreRequest.pre_request at 0x10e647598>
+  post_request: <function PostRequest.post_request at 0x10e647620>
+  child_exit: <function ChildExit.child_exit at 0x10e647730>
+  worker_exit: <function WorkerExit.worker_exit at 0x10e647840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10e647950>
+  on_exit: <function OnExit.on_exit at 0x10e647a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:33:01 +0800] [89873] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:33:01 +0800] [89873] [DEBUG] Arbiter booted
+[2018-12-03 11:33:01 +0800] [89873] [INFO] Listening at: http://127.0.0.1:9000 (89873)
+[2018-12-03 11:33:01 +0800] [89873] [INFO] Using worker: sync
+[2018-12-03 11:33:01 +0800] [89876] [INFO] Booting worker with pid: 89876
+[2018-12-03 11:33:01 +0800] [89873] [DEBUG] 1 workers
+[2018-12-03 11:33:08 +0800] [89876] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:33:08 +0800] [89876] [INFO] Worker exiting (pid: 89876)
+[2018-12-03 11:33:08 +0800] [89873] [INFO] Shutting down: Master
+[2018-12-03 11:33:08 +0800] [89873] [INFO] Reason: Worker failed to boot.
+[2018-12-03 11:33:47 +0800] [89891] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10f316b70>
+  on_reload: <function OnReload.on_reload at 0x10f316c80>
+  when_ready: <function WhenReady.when_ready at 0x10f316d90>
+  pre_fork: <function Prefork.pre_fork at 0x10f316ea0>
+  post_fork: <function Postfork.post_fork at 0x10f32c048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10f32c158>
+  worker_int: <function WorkerInt.worker_int at 0x10f32c268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10f32c378>
+  pre_exec: <function PreExec.pre_exec at 0x10f32c488>
+  pre_request: <function PreRequest.pre_request at 0x10f32c598>
+  post_request: <function PostRequest.post_request at 0x10f32c620>
+  child_exit: <function ChildExit.child_exit at 0x10f32c730>
+  worker_exit: <function WorkerExit.worker_exit at 0x10f32c840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10f32c950>
+  on_exit: <function OnExit.on_exit at 0x10f32ca60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:33:47 +0800] [89891] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:33:47 +0800] [89891] [DEBUG] Arbiter booted
+[2018-12-03 11:33:47 +0800] [89891] [INFO] Listening at: http://127.0.0.1:9000 (89891)
+[2018-12-03 11:33:47 +0800] [89891] [INFO] Using worker: sync
+[2018-12-03 11:33:47 +0800] [89894] [INFO] Booting worker with pid: 89894
+[2018-12-03 11:33:47 +0800] [89891] [DEBUG] 1 workers
+[2018-12-03 11:33:50 +0800] [89894] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/wsgi.py", line 1, in <module>
+    from server import app
+  File "/Users/yinshangyi/Documents/ML-Projects/API-Job/server.py", line 32, in <module>
+    model = load_model('all-dogbreeds_model.h5')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/yinshangyi/miniconda3/envs/ml/lib/python3.6/site-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'all-dogbreeds_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2018-12-03 11:33:50 +0800] [89894] [INFO] Worker exiting (pid: 89894)
+[2018-12-03 11:33:50 +0800] [89891] [INFO] Shutting down: Master
+[2018-12-03 11:33:50 +0800] [89891] [INFO] Reason: Worker failed to boot.
+[2018-12-03 11:34:53 +0800] [89917] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1094dfb70>
+  on_reload: <function OnReload.on_reload at 0x1094dfc80>
+  when_ready: <function WhenReady.when_ready at 0x1094dfd90>
+  pre_fork: <function Prefork.pre_fork at 0x1094dfea0>
+  post_fork: <function Postfork.post_fork at 0x1094f5048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x1094f5158>
+  worker_int: <function WorkerInt.worker_int at 0x1094f5268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x1094f5378>
+  pre_exec: <function PreExec.pre_exec at 0x1094f5488>
+  pre_request: <function PreRequest.pre_request at 0x1094f5598>
+  post_request: <function PostRequest.post_request at 0x1094f5620>
+  child_exit: <function ChildExit.child_exit at 0x1094f5730>
+  worker_exit: <function WorkerExit.worker_exit at 0x1094f5840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x1094f5950>
+  on_exit: <function OnExit.on_exit at 0x1094f5a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:34:53 +0800] [89917] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:34:53 +0800] [89917] [DEBUG] Arbiter booted
+[2018-12-03 11:34:53 +0800] [89917] [INFO] Listening at: http://127.0.0.1:9000 (89917)
+[2018-12-03 11:34:53 +0800] [89917] [INFO] Using worker: sync
+[2018-12-03 11:34:53 +0800] [89920] [INFO] Booting worker with pid: 89920
+[2018-12-03 11:34:53 +0800] [89917] [DEBUG] 1 workers
+[2018-12-03 11:35:21 +0800] [89917] [INFO] Handling signal: int
+[2018-12-03 11:35:21 +0800] [89920] [INFO] Worker exiting (pid: 89920)
+[2018-12-03 11:35:22 +0800] [89917] [INFO] Shutting down: Master
+[2018-12-03 11:36:23 +0800] [89944] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  bind: ['127.0.0.1:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/yinshangyi/Documents/ML-Projects/API-Job
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /Users/yinshangyi/Documents/ML-Projects/API-Job/logs/gunicorn-error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: wsgi:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10e99cb70>
+  on_reload: <function OnReload.on_reload at 0x10e99cc80>
+  when_ready: <function WhenReady.when_ready at 0x10e99cd90>
+  pre_fork: <function Prefork.pre_fork at 0x10e99cea0>
+  post_fork: <function Postfork.post_fork at 0x10e9b2048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10e9b2158>
+  worker_int: <function WorkerInt.worker_int at 0x10e9b2268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10e9b2378>
+  pre_exec: <function PreExec.pre_exec at 0x10e9b2488>
+  pre_request: <function PreRequest.pre_request at 0x10e9b2598>
+  post_request: <function PostRequest.post_request at 0x10e9b2620>
+  child_exit: <function ChildExit.child_exit at 0x10e9b2730>
+  worker_exit: <function WorkerExit.worker_exit at 0x10e9b2840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10e9b2950>
+  on_exit: <function OnExit.on_exit at 0x10e9b2a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-12-03 11:36:23 +0800] [89944] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 11:36:23 +0800] [89944] [DEBUG] Arbiter booted
+[2018-12-03 11:36:23 +0800] [89944] [INFO] Listening at: http://127.0.0.1:9000 (89944)
+[2018-12-03 11:36:23 +0800] [89944] [INFO] Using worker: sync
+[2018-12-03 11:36:23 +0800] [89947] [INFO] Booting worker with pid: 89947
+[2018-12-03 11:36:23 +0800] [89944] [DEBUG] 1 workers
+[2018-12-03 11:36:56 +0800] [89947] [DEBUG] GET /predict-dog/
+[2018-12-03 11:37:45 +0800] [89944] [INFO] Handling signal: int
+[2018-12-03 11:37:46 +0800] [89947] [INFO] Worker exiting (pid: 89947)
+[2018-12-03 11:37:47 +0800] [89944] [INFO] Shutting down: Master
